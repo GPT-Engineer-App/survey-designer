@@ -9,6 +9,7 @@ const Index = () => {
       <h1 className="text-3xl">Welcome to the Survey Design App</h1>
       <p>Create and customize your surveys with ease.</p>
       <Button onClick={() => navigate("/create-survey")}>Create Survey</Button>
+      <Button onClick={() => navigate("/view-survey")}>View Survey</Button>
     </div>
   );
 };
